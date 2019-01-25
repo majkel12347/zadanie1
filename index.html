@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webform</title>
+    <!-- style -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+        <img src="img/logo.gif" alt="Masteralb.com header logo">
+    </header>
+
+    <div class="container">
+        <div class="col">
+            <div class="box">
+                <h1>Register Form</h1>
+                <form action="" class="sign-up">
+                    <input type="text" placeholder="Username" class="username" required="required">
+                    <input type="password" placeholder="Password" class="password" required="required">
+                    <input type="password" placeholder="Confirm Password" class="password" required="required">
+                    <input type="email" placeholder="Email" class="email" required="required">
+                    <select name="Your Location">
+                        <option value="Your Location">Your Location</option>
+                        <option value="Europe">Europe</option>
+                        <option value="USA">USA</option>
+                        <option value="Azja">Azja</option>
+                    </select>
+                    <div class="input-label">
+                        <input type="checkbox" id="terms-of-use" required="required">
+                        <label for="terms-of-use" class="sign-in-checkbox"><span></span>I have read and accept the terms of use</label>
+                    </div>
+                    <button class="btn btn-big" type="submit">Sign up</button>
+                </form>
+            </div>
+
+            <div class="box">
+            <h1>Send Email</h1>
+                <form action="" class="send-mail">
+                    <input type="text" placeholder="Your Name" class="username" required="required">
+                    <input type="email" placeholder="Your Email" class="email" required="required">
+                    <textarea placeholder="Type your message..."></textarea>
+                    <div class="input-label">
+                        <input type="checkbox" id="copy-to-email">
+                        <label for="copy-to-email"><span></span>Send a copy to my Email</label>
+                    </div>
+                    <button class="btn btn-big" type="submit">Send Email</button>
+                </form>
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <h1>Sign In Form</h1>
+                <form action="" class="sign-in">
+                    <input type="text" placeholder="Username" class="username" required="required">
+                    <input type="password" placeholder="Password" class="password" required="required">
+                    <div class="input-label pull-left">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me"><span></span>Remember me</label>
+                    </div>
+                    <button class="btn btn-small pull-right" type="submit">Sign in</button>
+                </form>
+            </div>
+
+            <div class="box">
+                <h1>Recover Form</h1>
+                <form action="" class="recover">
+                    <input type="email" placeholder="Enter your Email" class="email" required="required">
+                    <input type="number" placeholder="Enter your Phone number" class="phone" required="required">
+                    <button class="btn btn-small pull-left" type="submit">Send</button>
+                    <button class="btn btn-small pull-right btn-disabled" type="submit" disabled="">Done</button>
+                </form>
+            </div>
+
+            <div class="box">
+                <h1>Subscribe Form</h1>
+                <form action="" class="subscribe">
+                    <input type="email" placeholder="Enter your Email" class="email" required="required">
+                    <button class="btn btn-small pull-left" type="submit">Subscribe</button>
+                    <button class="btn btn-small pull-right btn-no" type="submit">No, Thanks</button>
+                </form>
+            </div>
+
+            <footer>
+                <img src="img/logo.gif" alt="Masteralb.com  footer logo">
+            </footer>
+        </div>
+    </div>
+
+  </body>
+</html>
